@@ -1,0 +1,36 @@
+package classe14_08;
+
+public class ObjetoCliente {
+
+	public static void main(String[] args) {
+		cliente cliente1 = new cliente();
+		cliente cliente2 = new cliente();
+		
+		cliente1.setNome("-----Rudrian-----");
+		cliente1.setTelefone(1599999999);
+        cliente1.setCpf(2222222);
+        cliente1.setRg(383838383);
+        cliente1.setid(001);
+            
+        System.out.println("Nome: " + cliente1.getNome());
+        System.out.println("Telefone: " + cliente1.getTelefone());
+        System.out.println("Cpf: " + cliente1.getCpf());
+        System.out.println("Rg: " + cliente1.getRg());
+        System.out.println("Id: " + cliente1.getid());
+        System.out.println(cliente.comprar());
+        
+        cliente2.setNome("-----Julio-----");
+		cliente2.setTelefone(1599999999);
+        cliente2.setCpf(2222222);
+        cliente2.setRg(383838383);
+        cliente2.setid(002);
+            
+        System.out.println("Nome: " + cliente2.getNome());
+        System.out.println("Telefone: " + cliente2.getTelefone());
+        System.out.println("Cpf: " + cliente2.getCpf());
+        System.out.println("Rg: " + cliente2.getRg());
+        System.out.println("Id: " + cliente2.getid());
+        System.out.println(cliente.experimentar());
+        
+	}
+}
