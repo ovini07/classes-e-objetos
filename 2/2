@@ -1,0 +1,71 @@
+package classe14_08;
+
+public class cliente {
+
+	    private String nome;
+	    private int telefone ;
+	    private int cpf;
+	    private int rg;
+	    private int id;
+
+	    public cliente() {
+	    }
+
+	    public String getNome() {
+	        return nome;
+	    }
+
+	    public void setNome(String nome) {
+	        this.nome = nome;
+	    }
+
+	    public int getTelefone() {
+	        return telefone;
+	    }
+
+	    public void setTelefone(int telefone) {
+	        this.telefone = telefone;
+	    }
+
+	    public int getCpf() {
+	        return cpf;
+	    }
+
+	    public void setCpf(int cpf) {
+	        this.cpf = cpf;
+	    }
+
+	    public int getRg() {
+	        return rg;
+	    }
+
+	    public void setRg(int rg) {
+	        this.rg = rg;
+	    }
+	    public int getid() {
+	        return id;
+	    }
+
+	    public void setid(int id) {
+	        this.id = id;
+	    }
+	 // Método estático que simula a ação de comprar
+	    public static String comprar() {
+	        return "Comprando"; // Retorna a string "Comprando"
+	    }
+
+	    // Método estático que simula a ação de experimentar
+	    public static String experimentar() {
+	        return "Experimentando"; // Retorna a string "Experimentando"
+	    }
+
+	    // Método estático que simula a ação de pagar
+	    public static String pagar() {
+	        return "Pagando a compra"; // Retorna a string "Pagando a compra"
+	    }
+
+	    // Método estático que simula a ação de reclamar
+	    public static String reclamar() {
+	        return "Reclamando do produto"; // Retorna a string "Reclamando do produto"
+	    }
+	}
