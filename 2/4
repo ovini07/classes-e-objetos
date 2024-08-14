@@ -1,0 +1,37 @@
+package classe14_08;
+
+public class ObjetoCadeira {
+
+	public static void main(String[] args) {
+		cadeira cadeira1 = new cadeira();
+		cadeira cadeira2 = new cadeira();
+		
+		cadeira1.setMarca("Pichau");
+		cadeira1.setModelo("Cadeira Omega");
+		cadeira1.setCor("Vermelho");
+		cadeira1.setmaterial("Couro");
+		
+		System.out.println("-----Objeto 1!-----");
+		System.out.println(cadeira1.getMarca());
+		System.out.println(cadeira1.getModelo());
+		System.out.println(cadeira1.getCor());
+		System.out.println(cadeira1.getmaterial());    
+		System.out.println(cadeira1.girar());
+		
+		System.out.println("------------------------------------------------------");
+		
+		cadeira2.setMarca("Pichau");
+		cadeira2.setModelo("Cadeira Obsidian");
+		cadeira2.setCor("Preto");
+		cadeira2.setmaterial("Poliéster");
+		
+		System.out.println("-----Objeto 2!-----");
+		System.out.println(cadeira2.getMarca());
+		System.out.println(cadeira2.getModelo());
+		System.out.println(cadeira2.getCor());
+		System.out.println(cadeira2.getmaterial());   
+		System.out.println(cadeira1.ajustar());
+
+	}
+
+}
