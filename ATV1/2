@@ -1,0 +1,22 @@
+package classe14_08;
+
+import dia07_08classe.Carro;
+
+public class objetoaviao {
+
+	public static void main(String[] args) {
+		aviao aviao1 = new aviao();
+
+        aviao1.setMarca("GOL");
+        aviao1.setPorte("Grande");
+        aviao1.setCor("Branco");
+        aviao1.setTamanho(30);
+
+        System.out.println("-----Avião 1!-----");
+        System.out.println("Marca: " + aviao1.getMarca());
+        System.out.println("Porte: " + aviao1.getPorte());
+        System.out.println("Cor: " + aviao1.getCor());
+        System.out.println("Tamanho: " + aviao1.getTamanho());
+              
+	}
+}
