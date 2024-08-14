@@ -1,0 +1,102 @@
+package classe14_08;
+
+import java.io.PrintStream;
+
+public class objetocoelho {
+
+	public static void main(String[] args) {
+		 coelho coelho1 = new coelho();
+		 coelho vaca = new coelho();
+		 coelho cachorro = new coelho();
+		 coelho bezerro = new coelho();
+		 coelho galinha = new coelho();
+		 coelho pintinho = new coelho();
+		 coelho ovelha = new coelho();
+		
+
+	        coelho1.setNome("SETE");
+	        coelho1.setCor("Branco");
+	        coelho1.setIdade(2);
+	        coelho1.setPeso(3.5);
+           
+	        vaca.setNome("BOITATA");
+	        vaca.setCor("Marrom");
+	        vaca.setIdade(3);
+	        vaca.setPeso(450.0);
+
+	        cachorro.setNome("BOLT");
+	        cachorro.setCor("Preto");
+	        cachorro.setIdade(4);
+	        cachorro.setPeso(15.0);
+
+	        bezerro.setNome("BRABO");
+	        bezerro.setCor("Branco e Marrom");
+	        bezerro.setIdade(1);
+	        bezerro.setPeso(200.0);
+
+	        galinha.setNome("NIKE");
+	        galinha.setCor("Branca");
+	        galinha.setIdade(2);
+	        galinha.setPeso(2.5);
+
+	        pintinho.setNome("PINTO");
+	        pintinho.setCor("Amarelo");
+	        pintinho.setIdade(1);
+	        pintinho.setPeso(0.3);
+
+	        ovelha.setNome("ZICA");
+	        ovelha.setCor("Branca");
+	        ovelha.setIdade(3);
+	        ovelha.setPeso(70.0);
+	        
+	        System.out.println("-----Coelho !-----");
+	        System.out.println("Nome: " + coelho1.getNome());
+	        System.out.println("Cor: " + coelho1.getCor());
+	        System.out.println("Idade: " + coelho1.getIdade() + " anos");
+	        System.out.println("Peso: " + coelho1.getPeso() + " kg");
+			System.out.println(coelho.correr());
+			
+			System.out.println("\n-----Vaca!-----");
+	        System.out.println("Nome: " + vaca.getNome());
+	        System.out.println("Cor: " + vaca.getCor());
+	        System.out.println("Idade: " + vaca.getIdade() + " anos");
+	        System.out.println("Peso: " + vaca.getPeso() + " kg");
+	        System.out.println(vaca.correr());
+
+	        System.out.println("\n-----Cachorro!-----");
+	        System.out.println("Nome: " + cachorro.getNome());
+	        System.out.println("Cor: " + cachorro.getCor());
+	        System.out.println("Idade: " + cachorro.getIdade() + " anos");
+	        System.out.println("Peso: " + cachorro.getPeso() + " kg");
+	        System.out.println(cachorro.correr());
+
+	        System.out.println("\n-----Bezerro!-----");
+	        System.out.println("Nome: " + bezerro.getNome());
+	        System.out.println("Cor: " + bezerro.getCor());
+	        System.out.println("Idade: " + bezerro.getIdade() + " anos");
+	        System.out.println("Peso: " + bezerro.getPeso() + " kg");
+	        System.out.println(bezerro.correr());
+
+	        System.out.println("\n-----Galinha!-----");
+	        System.out.println("Nome: " + galinha.getNome());
+	        System.out.println("Cor: " + galinha.getCor());
+	        System.out.println("Idade: " + galinha.getIdade() + " anos");
+	        System.out.println("Peso: " + galinha.getPeso() + " kg");
+	        System.out.println(galinha.correr());
+
+	        System.out.println("\n-----Pintinho!-----");
+	        System.out.println("Nome: " + pintinho.getNome());
+	        System.out.println("Cor: " + pintinho.getCor());
+	        System.out.println("Idade: " + pintinho.getIdade() + " anos");
+	        System.out.println("Peso: " + pintinho.getPeso() + " kg");
+	        System.out.println(pintinho.correr());
+
+	        System.out.println("\n-----Ovelha!-----");
+	        System.out.println("Nome: " + ovelha.getNome());
+	        System.out.println("Cor: " + ovelha.getCor());
+	        System.out.println("Idade: " + ovelha.getIdade() + " anos");
+	        System.out.println("Peso: " + ovelha.getPeso() + " kg");
+	        System.out.println(ovelha.correr());
+	    }
+	
+	}
